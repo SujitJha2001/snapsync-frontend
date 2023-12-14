@@ -168,9 +168,6 @@ function App() {
     }
   }, [socket])
 
-  useEffect(()=>{
-    console.log(CreateRoom)
-  },[CreateRoom])
 
   return (
     <div className="body">
