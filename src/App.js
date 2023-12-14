@@ -162,7 +162,7 @@ function App() {
       })
     } else {
       console.log("Connecting to the socket")
-      socket = io("http://localhost:4003");
+      socket = io("https://snapsync-backend-dif4.onrender.com/");
       // socket = io("https://snapsyncsj.azurewebsites.net/");
 
     }
