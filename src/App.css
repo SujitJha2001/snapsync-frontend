@@ -1,0 +1,62 @@
+.body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: burlywood; */
+  /* background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1)); */
+  background-image: linear-gradient(45deg, 	rgb(255, 153, 153), 	rgb(255, 255, 153), 	rgb(153, 255, 153),	rgb(153, 230, 255));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#title {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  height: 4%;
+}
+.innerBody {
+  background-color: white;
+  border-radius: 8px;
+  height: 70%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 7px;
+}
+#joinRoomInput,#createRoomInput {
+  margin-right: 5px;
+}
+#fileInput {
+  margin-left: 17px;
+}
+
+button {
+  padding: 7px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+#fileInputContainer{
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputAndCopy{
+  display: flex; 
+}
+
+
+
